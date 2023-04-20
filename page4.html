@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://bdeliver.net/bdelivernew/css/materialize.css" />
+    <link type="text/css" rel="stylesheet" href="https://bdeliver.net/bdelivernew/css/docTransfer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand Brief</title>
+
+    <style>
+        .nextbtn {
+            background: #102a42;
+            padding: 6px 33px;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0 auto !important;
+            text-align: center;
+            position: relative;
+            border: none;
+        }
+
+        h1 {
+            font-size: 4.2rem;
+            line-height: 109%;
+            margin: 0.1rem 0 1.68rem 0;
+        }
+
+        .header {
+            background: #2d2b2d;
+            height: 320px;
+        }
+
+        .home_slider_content {
+            position: absolute;
+            top: 123px;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: 11;
+        }
+
+        .home_slider_content h1:first-child {
+            font-size: 100px;
+            font-weight: 900;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+
+        .home_slider_content h1:nth-child(2) {
+            font-family: 'Beyond';
+            font-size: 90px;
+            color: #ed1846;
+            margin-top: -40px;
+        }
+
+        .input-field {
+            position: relative;
+            margin-top: 0rem;
+        }
+
+        .headingTwo {
+            font-size: 50px;
+            position: absolute;
+            top: 15px;
+            line-height: 22px;
+            left: 140px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #2a517478
+        }
+
+        .headingOne {
+            font-size: 50px;
+            color: #9badbe;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .headingThree {
+            font-size: 20px;
+            color: #394048;
+            line-height: 11px;
+        }
+
+        textarea.materialize-textarea {
+            overflow-y: hidden;
+            padding: 0rem 0 0.6rem 0;
+            resize: none;
+            min-height: 1rem;
+        }
+
+        .header {
+            background: #102a42;
+            height: 320px;
+        }
+
+        /* .paragraph {
+            font-size: 16px;
+            text-align: left;
+            font-weight: 300 !important;
+            color: #51668a;
+            font-family: 'Roboto', sans-serif !important;
+            margin: 0px;
+            padding: 0px;
+            letter-spacing: .7px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="row header">
+            <div class="col offset-l2 l8 offset-xxxl2 xxxl8">
+                <div class="home_slider_content text-center">
+                    <div class="home_slider_content_inner">
+                        <h1>brand</h1>
+                        <h1>brief</h1>
+                        <h1 class="tagLine">We'd love to craft the brief with you. Talk to us.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col offset-xxxl2 xxxl8 offset-xxl2 xxl8 offset-xl1 xl10 l12 m12 s12">
+                <div class="slides">
+                    <h1 class="headingOne">03. <span class="headingTwo">Background <br><span class="headingThree">What
+                                should advertising do for your brand?</span></span></h1>
+
+                    <p class="paragraph">Please help us understand your brand-related issues that you would like the
+                        campaigns to address. We will be happy to discuss this and help fill it together.</p><br>
+
+                    <div class="input-field width100">
+                        <textarea id="textarea1" name="business_issue" class="materialize-textarea"></textarea>
+                        <label for="textarea1" class="inputTextarea"> What are the business issues related to your
+                            brand,
+                            that the campaign needs to address?</label>
+                    </div>
+
+
+                    <div class="input-field width100">
+                        <textarea id="textarea1" name="behaviour_does" class="materialize-textarea"></textarea>
+                        <label for="textarea1" class="inputTextarea">Whose behavior does it need to change? In what way?
+                            (
+                            What do you want your target audience to feel, think, do? )</label>
+                    </div>
+
+
+                    <div class="input-field width100">
+                        <textarea id="textarea1" name="communication_obj" class="materialize-textarea"></textarea>
+                        <label for="textarea1" class="inputTextarea">What is the communication objective? </label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- </form>	 -->
+    </div>
+
+    <!-- </form> -->
+    <center>
+        <button class="modal-trigger nextbtn" type="button">Next</button>
+    </center>
+    <br>
+    <!-- <center>
+        <button class="modal-trigger submitBtn" onclick="submitBtn()" type="button">Send</button>
+    </center> -->
+
+
+
+
+
+
+    </form>
+    <a href="https://bdeliver.net/bdelivernew/home" style="margin-right: 80px;" class="logout">Home</a>
+    <a class="logout" href="https://bdeliver.net/bdelivernew/logout"
+        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+        Logout
+    </a>
+
+    <form id="logout-form" action="https://bdeliver.net/bdelivernew/logout" method="POST" style="display: none;">
+        <input type="hidden" name="_token" value="g1n5EkWGWjOKrGyBhM9Q4fdHE8sJm4kGfgSlwK9e">
+    </form>
+    <div id="modal1" class="modal">
+        <div class="modal-content center-align">
+            <p class="center-align">Your link has been shared successfully.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function submitBtn() {
+            var name = $("#name").val();
+            var client = $("#client").val();
+            var brand = $("#brand").val();
+            var email = $("#email").val();
+            var project_lead = $("#project_lead").val();
+            var client_servicing = $("#client_servicing").val();
+            var creative_director = $("#creative_director").val();
+            var medical_lead = $("#medical_lead").val();
+            var doc_id = $("#doc_id").val();
+            if (name == "" || client == "" || brand == "" || email == "") {
+                swal("Please Check If Name , Client , Brand or Email Field is Empty.");
+            } else if (project_lead == "" || client_servicing == "" || creative_director == "" || medical_lead == "") {
+                swal("Please Check If Project Lead , Client Servicing , Director or Medical Lead is Empty.");
+            } else if (doc_id != "") {
+                swal("Thank you, for submitting Brand Brief. We will get back to you shortly.").then((value) => {
+                    $("#form1").submit();
+                });
+            } else {
+                swal("Your link has been shared successfully to " + name + ".").then((value) => {
+                    $("#form1").submit();
+                });
+            }
+        }
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+
+</html>
